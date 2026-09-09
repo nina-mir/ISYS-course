@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" role="img" aria-label="DESIGNER creates PIANO">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>
+  .t { font-family: Arial, Helvetica, sans-serif; fill: #172b4d; }
+  .muted { font-family: Arial, Helvetica, sans-serif; fill: #5f6b7a; }
+  .entity { fill: #ffffff; stroke: #1f6feb; stroke-width: 2; rx: 8; }
+  .head { fill: #eaf3ff; }
+  .rel { stroke: #172b4d; stroke-width: 2.2; fill: none; stroke-linecap: round; }
+  .sym { stroke: #172b4d; stroke-width: 2.2; fill: #ffffff; }
+  .pk { font-weight: 700; text-decoration: underline; }
+  .small { font-size: 14px; }
+  .med { font-size: 16px; }
+  .big { font-size: 20px; font-weight: 700; }
+</style>
+<rect class="entity" x="70" y="70" width="240" height="170"/>
+<path class="head" d="M 71 71 h 238 v 38 h -238 z"/>
+<line x1="70" y1="110" x2="310" y2="110" stroke="#1f6feb" stroke-width="1.5"/>
+<text class="t big" x="190.0" y="96" text-anchor="middle">DESIGNER</text>
+<text class="t small pk" x="84" y="134">DesignerCode</text>
+<text class="t small" x="84" y="157">Name</text>
+<text class="t small" x="84" y="180">Address</text>
+<rect class="entity" x="690" y="70" width="240" height="170"/>
+<path class="head" d="M 691 71 h 238 v 38 h -238 z"/>
+<line x1="690" y1="110" x2="930" y2="110" stroke="#1f6feb" stroke-width="1.5"/>
+<text class="t big" x="810.0" y="96" text-anchor="middle">PIANO</text>
+<text class="t small pk" x="704" y="134">SerialNumber</text>
+<text class="t small" x="704" y="157">CompletionDate</text>
+<line class="rel" x1="328" y1="155" x2="672" y2="155"/>
+<line class="rel" x1="328" y1="144" x2="328" y2="166"/>
+<line class="rel" x1="344" y1="144" x2="344" y2="166"/>
+<line class="rel" x1="656" y1="155" x2="672" y2="143"/>
+<line class="rel" x1="656" y1="155" x2="672" y2="155"/>
+<line class="rel" x1="656" y1="155" x2="672" y2="167"/>
+<circle class="sym" cx="656" cy="155" r="6"/>
+<rect x="410.0" y="133" width="180" height="32" fill="#ffffff"/>
+<text class="t med" x="500.0" y="156" text-anchor="middle" font-weight="700">creates</text>
+<text class="muted small" x="500.0" y="285" text-anchor="middle">One PIANO has exactly one DESIGNER; one DESIGNER may have zero or many PIANOS.</text>
+</svg>

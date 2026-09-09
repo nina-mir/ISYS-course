@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="320" viewBox="0 0 840 320" role="img" aria-label="Entity attributes example">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>
+  .t { font-family: Arial, Helvetica, sans-serif; fill: #172b4d; }
+  .muted { font-family: Arial, Helvetica, sans-serif; fill: #5f6b7a; }
+  .entity { fill: #ffffff; stroke: #1f6feb; stroke-width: 2; rx: 8; }
+  .head { fill: #eaf3ff; }
+  .rel { stroke: #172b4d; stroke-width: 2.2; fill: none; stroke-linecap: round; }
+  .sym { stroke: #172b4d; stroke-width: 2.2; fill: #ffffff; }
+  .pk { font-weight: 700; text-decoration: underline; }
+  .small { font-size: 14px; }
+  .med { font-size: 16px; }
+  .big { font-size: 20px; font-weight: 700; }
+</style>
+<rect class="entity" x="55" y="45" width="300" height="220"/>
+<path class="head" d="M 56 46 h 298 v 38 h -298 z"/>
+<line x1="55" y1="85" x2="355" y2="85" stroke="#1f6feb" stroke-width="1.5"/>
+<text class="t big" x="205.0" y="71" text-anchor="middle">STUDENT</text>
+<text class="t small pk" x="69" y="109">StudentID</text>
+<text class="t small" x="69" y="132">StudentName</text>
+<text class="t small" x="69" y="155">Major  (optional)</text>
+<text class="t small" x="69" y="178">Address(Street, City, State)</text>
+<text class="t med" x="405" y="74" font-weight="700">Identifier / primary key</text>
+<text class="muted small" x="405" y="98">Uniquely identifies one STUDENT instance.</text>
+<text class="t med" x="405" y="145" font-weight="700">Optional attribute</text>
+<text class="muted small" x="405" y="169">May have no value for some instances.</text>
+<text class="t med" x="405" y="216" font-weight="700">Composite attribute</text>
+<text class="muted small" x="405" y="240">Can be broken into meaningful parts.</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="410" viewBox="0 0 900 410" role="img" aria-label="Crow foot notation legend">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>
+  .t { font-family: Arial, Helvetica, sans-serif; fill: #172b4d; }
+  .muted { font-family: Arial, Helvetica, sans-serif; fill: #5f6b7a; }
+  .entity { fill: #ffffff; stroke: #1f6feb; stroke-width: 2; rx: 8; }
+  .head { fill: #eaf3ff; }
+  .rel { stroke: #172b4d; stroke-width: 2.2; fill: none; stroke-linecap: round; }
+  .sym { stroke: #172b4d; stroke-width: 2.2; fill: #ffffff; }
+  .pk { font-weight: 700; text-decoration: underline; }
+  .small { font-size: 14px; }
+  .med { font-size: 16px; }
+  .big { font-size: 20px; font-weight: 700; }
+</style>
+<text class="t big" x="360" y="34" text-anchor="middle">Crow's Foot Endpoint Legend</text>
+<text class="t med" x="40" y="93" font-weight="700">Exactly one</text>
+<line class="rel" x1="270" y1="88" x2="480" y2="88"/>
+<line class="rel" x1="460" y1="77" x2="460" y2="99"/>
+<line class="rel" x1="444" y1="77" x2="444" y2="99"/>
+<rect x="480" y="62" width="95" height="52" rx="7" fill="#eaf3ff" stroke="#1f6feb" stroke-width="1.5"/>
+<text class="t med" x="527" y="93" text-anchor="middle">ENTITY</text>
+<text class="muted small" x="595" y="93">minimum 1, maximum 1</text>
+<text class="t med" x="40" y="171" font-weight="700">Zero or one</text>
+<line class="rel" x1="270" y1="166" x2="480" y2="166"/>
+<line class="rel" x1="460" y1="155" x2="460" y2="177"/>
+<circle class="sym" cx="444" cy="166" r="6"/>
+<rect x="480" y="140" width="95" height="52" rx="7" fill="#eaf3ff" stroke="#1f6feb" stroke-width="1.5"/>
+<text class="t med" x="527" y="171" text-anchor="middle">ENTITY</text>
+<text class="muted small" x="595" y="171">minimum 0, maximum 1</text>
+<text class="t med" x="40" y="249" font-weight="700">One or many</text>
+<line class="rel" x1="270" y1="244" x2="480" y2="244"/>
+<line class="rel" x1="444" y1="244" x2="460" y2="232"/>
+<line class="rel" x1="444" y1="244" x2="460" y2="244"/>
+<line class="rel" x1="444" y1="244" x2="460" y2="256"/>
+<line class="rel" x1="444" y1="233" x2="444" y2="255"/>
+<rect x="480" y="218" width="95" height="52" rx="7" fill="#eaf3ff" stroke="#1f6feb" stroke-width="1.5"/>
+<text class="t med" x="527" y="249" text-anchor="middle">ENTITY</text>
+<text class="muted small" x="595" y="249">minimum 1, maximum many</text>
+<text class="t med" x="40" y="327" font-weight="700">Zero or many</text>
+<line class="rel" x1="270" y1="322" x2="480" y2="322"/>
+<line class="rel" x1="444" y1="322" x2="460" y2="310"/>
+<line class="rel" x1="444" y1="322" x2="460" y2="322"/>
+<line class="rel" x1="444" y1="322" x2="460" y2="334"/>
+<circle class="sym" cx="444" cy="322" r="6"/>
+<rect x="480" y="296" width="95" height="52" rx="7" fill="#eaf3ff" stroke="#1f6feb" stroke-width="1.5"/>
+<text class="t med" x="527" y="327" text-anchor="middle">ENTITY</text>
+<text class="muted small" x="595" y="327">minimum 0, maximum many</text>
+</svg>
